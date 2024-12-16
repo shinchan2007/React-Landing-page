@@ -1,0 +1,110 @@
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height: 60vh; 
+    text-align: center;
+    
+}
+.firstpagecontent{
+    /* text-shadow:2px 3px 3px white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    margin: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+p{
+    word-spacing: 3px;
+    animation-name: downward;
+    animation-duration: 2s;
+    opacity:1;
+
+}
+@keyframes downward{
+    from{
+        transform: translateY(-25%);
+        opacity:0.3;
+    }
+}
+h1{
+    text-transform: uppercase;
+    animation-name: upward;
+    animation-duration: 2s;
+    opacity:1;
+}
+@keyframes upward{
+    from{
+        transform: translateY(25%);
+        opacity:0.3;
+    }
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: black ;
+    margin: 10px !important;
+}
+
+.button1{
+    animation-name: slideleft;
+    animation-duration: 2s;
+    opacity:1;
+    animation-timing-function:ease all;
+    animation-iteration-count: 1;
+    color: black !important;
+}
+@keyframes slideleft{
+    from{
+        transform: translatex(60%);
+    }
+    to{
+        transform: translatex(0%);
+    }
+}
+.button2{
+    animation-name: rightside;
+    animation-duration: 2s;
+    opacity:1;
+    animation-timing-function:ease all;
+    animation-iteration-count: 1;
+    color: rgb(255, 255, 255) ;
+}
+.button2:hover{
+    color: rgb(0, 0, 0) ;
+}
+
+@keyframes rightside{
+    from{
+        transform: translatex(-60%);
+        z-index: -3;
+    }
+    to{
+        transform: translatex(0%);
+        z-index: 1;
+    }
+}
+.welcome{
+    font-family: "Kaushan Script", cursive;
+}
+@media screen and (max-width:350px) {
+    .button1{
+        height: 40px;
+        font-size: 10px;
+        width:100px;
+    }
+    .button2{
+        height: 40px;
+        font-size: small;
+        width:100px;
+    }
+}

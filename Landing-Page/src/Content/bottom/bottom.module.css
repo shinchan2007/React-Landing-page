@@ -1,0 +1,33 @@
+.footer{
+    height: 6vh;
+    color: white;
+}
+.bottom{
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    word-spacing: 5px;
+}
+.bottom i{
+   font-size: xx-small;
+
+}
+.bottom small{
+   font-size: medium;
+
+}
+.bottomlogo i{
+   margin:10px 5px;
+   font-size: medium;
+
+}
+.bottompolicy small{
+   margin:10px 5px;
+   font-size: medium;
+}
+.placeholder{
+    height: 90%;
+}
+.copyright {
+    margin: 0 15px;
+}
