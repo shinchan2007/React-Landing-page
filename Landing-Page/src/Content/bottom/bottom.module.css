@@ -9,7 +9,7 @@
     word-spacing: 5px;
 }
 .bottom i{
-   font-size: xx-small;
+   font-size: medium;
 
 }
 .bottom small{
@@ -17,9 +17,8 @@
 
 }
 .bottomlogo i{
-   margin:10px 5px;
-   font-size: medium;
-
+   margin:10px 15px;
+   font-size:30px;
 }
 .bottompolicy small{
    margin:10px 5px;
@@ -30,4 +29,30 @@
 }
 .copyright {
     margin: 0 15px;
+}
+.facopyright{
+    font-size: 15px;
+}
+.linkedin:hover{
+    color: rgb(10, 102, 194);
+    transition: 0.2s ease all;
+    box-shadow: white;
+    text-shadow:0px 0px 10px  white;
+    /* position: relative; */
+}
+.facebook:hover{
+    color: hsl(217, 100%, 62%);
+    transition: 0.2s ease all;
+    box-shadow: white;
+    text-shadow:0px 0px 10px white;
+    /* position: relative; */
+}
+.twitter:hover{
+    transition: 0.5s ease all;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    
+}
+.bottomlogo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }

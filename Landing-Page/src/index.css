@@ -213,7 +213,7 @@ header .link-button:hover{
     }
     .login{
         background-color: rgb(10, 83, 119) !important;
-        scale: 1.1;
+        scale: 1;
         margin:5px auto;
     }
 
